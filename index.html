@@ -261,7 +261,7 @@ a{color:var(--accent)}
       levelChips().replace('</div>', '<button class="chip" data-act="savedOnly" aria-pressed="' + st.listSaved + '">★ ที่บันทึก</button></div>') +
       '<div class="meta"><span id="count"></span><span>จำได้แล้ว ' + k + '/' + p.length + '</span></div>' +
       '<div class="list" id="list"></div><div id="more"></div>' +
-      '<div class="credit">ขอบคุณคำศัพท์จาก Oxford Learner\'s Dictionaries (The Oxford 3000™ © Oxford University Press)<br>แปลและใส่คำอ่านโดยเพจ KruDew TOEIC · ทำเพื่อแจกฟรี ไม่อนุญาตให้จำหน่าย<br><button data-act="reset">ล้างความคืบหน้าทั้งหมด</button></div>';
+      '<div class="credit">ขอบคุณคำศัพท์จาก Oxford Learner\'s Dictionaries (The Oxford 3000™ © Oxford University Press)<br>คำอ่านและความหมาย a–component จากเพจ KruDew TOEIC · ทำเพื่อแจกฟรี ไม่อนุญาตให้จำหน่าย<br><button data-act="reset">ล้างความคืบหน้าทั้งหมด</button></div>';
     document.getElementById('q').addEventListener('input', function (e) { st.listQ = e.target.value; st.listLimit = 200; renderRows(); });
     renderRows();
   }
